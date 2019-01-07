@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		39F5A69121DF87C60010F1A3 /* MinutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F5A69021DF87C60010F1A3 /* MinutesTests.swift */; };
-		39F5A6A121E3331D0010F1A3 /* AppCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F5A69B21E3331C0010F1A3 /* AppCenterDistribute.framework */; };
-		39F5A6A221E3331D0010F1A3 /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F5A69C21E3331D0010F1A3 /* AppCenterCrashes.framework */; };
-		39F5A6A321E3331D0010F1A3 /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F5A69D21E3331D0010F1A3 /* AppCenter.framework */; };
-		39F5A6A421E3331D0010F1A3 /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F5A69E21E3331D0010F1A3 /* AppCenterAnalytics.framework */; };
-		39F5A6A521E3331D0010F1A3 /* AppCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39F5A69F21E3331D0010F1A3 /* AppCenterDistributeResources.bundle */; };
-		39F5A6A621E3331D0010F1A3 /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F5A6A021E3331D0010F1A3 /* AppCenterPush.framework */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -38,12 +32,6 @@
 		39F5A68E21DF87C60010F1A3 /* MinutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F5A69021DF87C60010F1A3 /* MinutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTests.swift; sourceTree = "<group>"; };
 		39F5A69221DF87C60010F1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39F5A69B21E3331C0010F1A3 /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterDistribute.framework; sourceTree = "<group>"; };
-		39F5A69C21E3331D0010F1A3 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterCrashes.framework; sourceTree = "<group>"; };
-		39F5A69D21E3331D0010F1A3 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenter.framework; sourceTree = "<group>"; };
-		39F5A69E21E3331D0010F1A3 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAnalytics.framework; sourceTree = "<group>"; };
-		39F5A69F21E3331D0010F1A3 /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppCenterDistributeResources.bundle; sourceTree = "<group>"; };
-		39F5A6A021E3331D0010F1A3 /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterPush.framework; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,11 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F5A6A121E3331D0010F1A3 /* AppCenterDistribute.framework in Frameworks */,
-				39F5A6A321E3331D0010F1A3 /* AppCenter.framework in Frameworks */,
-				39F5A6A621E3331D0010F1A3 /* AppCenterPush.framework in Frameworks */,
-				39F5A6A421E3331D0010F1A3 /* AppCenterAnalytics.framework in Frameworks */,
-				39F5A6A221E3331D0010F1A3 /* AppCenterCrashes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,23 +71,9 @@
 			path = MinutesTests;
 			sourceTree = "<group>";
 		};
-		39F5A69A21E332D50010F1A3 /* AppCenter */ = {
-			isa = PBXGroup;
-			children = (
-				39F5A69D21E3331D0010F1A3 /* AppCenter.framework */,
-				39F5A69E21E3331D0010F1A3 /* AppCenterAnalytics.framework */,
-				39F5A69C21E3331D0010F1A3 /* AppCenterCrashes.framework */,
-				39F5A69B21E3331C0010F1A3 /* AppCenterDistribute.framework */,
-				39F5A69F21E3331D0010F1A3 /* AppCenterDistributeResources.bundle */,
-				39F5A6A021E3331D0010F1A3 /* AppCenterPush.framework */,
-			);
-			path = AppCenter;
-			sourceTree = "<group>";
-		};
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
-				39F5A69A21E332D50010F1A3 /* AppCenter */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
 				39F5A68F21DF87C60010F1A3 /* MinutesTests */,
 				D3048F25202E2B2D00D45D7E /* Products */,
@@ -229,7 +198,6 @@
 				D3048F32202E2B2D00D45D7E /* LaunchScreen.storyboard in Resources */,
 				D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */,
 				D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */,
-				39F5A6A521E3331D0010F1A3 /* AppCenterDistributeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
